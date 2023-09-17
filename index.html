@@ -3,9 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CGPA - Calculator</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- FONTS. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+    
 </head>
 <body>
+    <!-- navbar -->
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/google-logo.png" alt="" class="logo" width="70px" height="70px">
+            </div>
+            
+                <ul class="nav-list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About US</a> </li>
+                    <li><a href="">Contact</a></li>
+        
+                </ul>
+        </nav>
+     
+        <!-- title -->
+        <div class="title">
+            <h1>VTU <span style="color: #fff;">CGPA</span> Calculator</h1>
+        </div>
+
+
+
+
+    <div class="container">
+        <div class="card">
+            <img src="images/noob.png" alt="" height="300px">
+            <div class="intro">
+                <h1>1st Year</h1>+
+                <p >Good Enjoy your year</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/first year.png" alt="" height="300px">
+            <div class="intro">
+                <h1>2nd Year</h1>
+                <p>Aur Bhai agaya swad!!</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/3year.png" alt="" height="300px">
+            <div class="intro">
+                <h1>3rd Year</h1>
+                <p>Ye Sab dokla pan hai</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/4th.png" alt="" height="300px">
+            <div class="intro">
+                <h1>4th Year</h1>
+                <p>Paisa barbad bench**d</p>
+            </div>
+        </div>
+
+      
+    </div>
+
+
+    <!-- <div class="container">
+        <div class="card">
+            <img src="images/noob.png" alt="1st year">
+            <div class="intro">
+                <h2>First Year</h2>
+                <p>Good Your in first year</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/noob.png" alt="2nd year">
+            <div class="intro">
+                <h2>second Year</h2>
+                <p>Good Your in first year</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/noob.png" alt="3rd year">
+            <div class="intro">
+                <h2>third Year</h2>
+                <p>Good Your in first year</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/noob.png" alt="4th year">
+            <div class="intro">
+                <h2>fourth Year</h2>
+                <p>Good Your in first year</p>
+            </div>
+        </div>
+    </div> -->
+    
+
+    <footer>
+        <div class="copyright">
+            <p>&copy; <span id="currentYear"></span> <span style="color: violet;"> VTU CGPA CALCULATOR </span>, ALL RIGHTS RESERVED.</p>
+            
+        </div>
+    </footer>
+   
+
+
+    
+ 
+      
+
+
+
+
+
+
+
+
+<script>
+    var date =new Date();
+    var year=date.getFullYear();
+    document.getElementById("currentYear").innerHTML=year;
+
+</script>
+
+
     
 </body>
 </html>
