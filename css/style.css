@@ -1,10 +1,8 @@
 body{
-    background-image: url('../images/background.png');
-    
+    background-image: url('../images/background.png');   
     color: #FFFF;
     font-family: 'Poppins',sans-serif;
 }
-
 
 body::-webkit-scrollbar{
     background-color: #8696FE;
