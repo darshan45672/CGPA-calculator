@@ -88,7 +88,7 @@ body::-webkit-scrollbar-thumb{
     color: black;
     text-align: center;
     border-radius: 4px;
-   bottom: 15%;
+   bottom: 25%;
    overflow: hidden;
    color: #FFFF;
    transition: 0.7s;
