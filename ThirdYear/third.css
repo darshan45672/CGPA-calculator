@@ -1,0 +1,20 @@
+body{
+    background-image: url('../images/background.png');
+    color: #ffff;
+}
+
+h1{
+    
+    text-align: center;
+}
+
+body::-webkit-scrollbar{
+    background-color: #8696FE;
+    
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: white;
+    scrollbar-width: auto;
+   
+}
